@@ -21,7 +21,7 @@ export default class PictureCard extends React.Component {
         <Image source={require('../../App/Images/Profiles/harold.jpg')} style={styles.image} />
         <View style={styles.information}>
             <Text style={{fontSize: 20}}> <B>{this.props.name}</B>, {this.props.age} </Text>
-            <Text style={{marginHorizontal: 5, marginBottom: 10}}> {this.props.occupation} </Text>
+            <Text style={{marginHorizontal: 5, marginBottom: 10, color: 'gray'}}> {this.props.occupation} </Text>
         </View>
       </View>
     );
